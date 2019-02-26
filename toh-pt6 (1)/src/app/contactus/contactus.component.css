@@ -1,0 +1,13 @@
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #BCC0B7;
+    padding: 20px; 
+    width: 700px;
+    height: 400px;  
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  strong {
+    padding: 25px;
+  }

@@ -1,0 +1,25 @@
+
+<div class="container">
+    <p>&nbsp;</p>
+    <div style="text-align:center"><h2><u>List And Remove User</u></h2></div>
+    <p>&nbsp;</p>
+  
+<table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>User Name</th>
+            <th>User Type</th>
+            <th>Active Status</th>
+            <th>Remove User</th>            
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let userR of userRecord; let i = index">
+              <td>{{userR.userName}}</td>
+              <td>{{userR.userType}}</td>
+              <td>{{userR.activeStatus}}</td>
+              <td><button (click)="removeUser(i)">click</button></td>
+            </tr>        
+          </tbody>
+        </table>
+</div>
